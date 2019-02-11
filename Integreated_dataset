@@ -1,0 +1,6 @@
+Import numpy as np
+import pandas as pd 
+import matplotlib.pyplot as plt
+
+temp_data = pd.read_csv("Weather_data.CSV")
+temp_data.head()
